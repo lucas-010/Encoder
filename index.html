@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Codificador</title>
+</head>
+<body>
+    <div class="morse-table">
+        <table>
+            <tr><td>A</td> <td>B</td> <td>C</td> <td>D</td> <td>E</td> <td>F</td> <td>G</td> <td>H</td> <td>I</td> <td>J</td> <td>K</td> <td>L</td> <td>M</td> <td>N</td> <td>O</td> <td>P</td> <td>Q</td> <td>R</td> <td>S</td> <td>T</td> <td>U</td> <td>V</td> <td>W</td> <td>X</td> <td>Y</td> <td>Z</td></tr>
+
+            <tr><td>.-</td> <td>-...</td> <td>-.-.</td> <td>-..</td> <td>.</td> <td>..-.</td> <td>--.</td> <td>....</td> <td>..</td> <td>.---</td> <td>-.-</td> <td>.-..</td> <td>--</td> <td>-.</td> <td>---</td> <td>.--.</td> <td>--.-</td> <td>.-.</td> <td>...</td> <td>-</td> <td>..-</td> <td>...-</td> <td>.--</td> <td>-..-</td> <td>-.--</td> <td>--..</td></tr>
+        </table>
+    </div>
+    <button id="invert">Inverter</button>
+    <div class="convert-text">
+        <div class="input">
+            <h1 id="type-title">Texto</h1>
+            <textarea name="input" id="input-text" class="area" cols="25" rows="10" style="resize: none;"></textarea>
+            <br><button id="decipher-btn">Codificar</button>
+        </div>
+        
+        <div class="output">
+            <h1>Resultado</h1>
+            <textarea name="input" id="output-text" class="area" cols="25" rows="10" style="resize: none;" disabled></textarea>
+            <select name="" id="select-type">
+                <option value="morse">Morse</option>
+                <option value="binary">Binário</option>
+            </select>
+            <button id="copy-btn">Copiar</button>
+        </div>
+        
+    </div>
+
+    <script src="Javascript/decoderBinary.js"></script>
+    <script src="Javascript/decoderMorse.js"></script>
+    <script src="Javascript/encoderBinary.js"></script>
+    <script src="Javascript/encoderMorse.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

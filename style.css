@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.morse-table{
+   display: block;
+   margin-left: 70px;
+}
+
+table{
+    border-collapse: collapse; 
+}
+
+table tr td{
+    border: 1px solid black;
+    padding: 7px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.convert-text{
+    margin-top: 30px;
+    margin-left: 70px;
+    display: flex;
+    
+}
+
+.convert-text textarea{
+    outline: none;
+    font-size: 2rem;
+}
+
+.input h1{
+    text-align: center;
+}
+
+.output{
+    margin-left: 100px;
+}
+
+.output h1{
+    text-align: center;
+}
+
+#invert{
+    margin-left: 730px;
+    margin-top: 439px;
+    position: absolute;
+}
+
+button{
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+#decipher-btn{
+    margin-left: 120px;
+}
+
+#select-type{
+    font-size: 2rem;
+    position: absolute;
+}
+
+#copy-btn{
+    display: block;
+    margin-left: 420px;
+    margin-top: -250px;
+}
