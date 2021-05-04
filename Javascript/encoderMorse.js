@@ -76,6 +76,8 @@ function EncoderMorse(){
         }
         if(lettersMorse[el] !== undefined){
             outputText.innerHTML += lettersMorse[el]  
+        }else{
+            outputText.innerHTML = 'Certos caracteres não existem para código morse. Verifique o que você digitou.'
         }
         
     }) 
