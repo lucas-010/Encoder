@@ -93,6 +93,8 @@ function EncoderBinary(){
         }
         if(lettersBin[el] !== undefined){
             outputText.innerHTML += lettersBin[el]
+        }else{
+            outputText.innerHTML = 'Certos caracteres não existem para código Binário. Verifique o que você digitou.'
         }
         
     })
