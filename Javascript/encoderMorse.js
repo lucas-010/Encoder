@@ -62,20 +62,11 @@ function EncoderMorse(){
     textConvert.forEach(el=>{
         el = el.toUpperCase()
         switch (el){
-            case 'ã':
-                el = 'A'
-                break
             case 'Ã':
                 el = 'A'
                 break
-            case 'ê':
-                el = 'E'
-                break
             case 'Ê':
                 el = 'E'
-                break
-            case 'ç':
-                el = 'C'
                 break
             case 'Ç':
                 el = 'C'
